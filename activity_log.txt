@@ -1,0 +1,214 @@
+
+Welcome to
+
+▄▀█ █▀▄ █▀█ █░█ █▀▄▀█   █▀▀ ▀█▀ █▀▄▀█   █▀ █ █▀▄▀█
+█▀█ █▄▀ █▄█ ▀▄▀ █░▀░█   █▄▄ ░█░ █░▀░█   ▄█ █ █░▀░█
+developed by xen0byt3
+==================================================================
+
+Set Hostname: RaperRozel
+
+Select Connection Type:
+1. Ethernet
+2. WLAN
+Enter choice (1 or 2): 1
+Set IP Address (Class A only): 10.0.0.1
+Subnet Mask: 255.0.0.0
+
+▄▀█ █▀▄ █▀█ █░█ █▀▄▀█   █▀▀ ▀█▀ █▀▄▀█   █▀ █ █▀▄▀█
+█▀█ █▄▀ █▄█ ▀▄▀ █░▀░█   █▄▄ ░█░ █░▀░█   ▄█ █ █░▀░█
+developed by xen0byt3
+==================================================================
+[Active Website]
+https://www.sinrevilo.moc
+https://www.xeno-byte.moc
+https://www.gi4nt-tcr.moc
+
+Welcome to the adoVM CTM Terminal Simulator. Type 'help' for commands.
+
+RaperRozel@adoVM-$: help
+
+adoVM Linux Commands:
+ip a                              - Shows your IP address, interfaces
+ip route                          - Shows your gateway
+hostname -I                       - Shows your IP address quickly
+ping {target_IP or website}       - Checks if a host is reachable
+traceroute {target_IP or website} - Shows the path packets take (routers/hops)
+netstat -tulnp                    - Shows open ports and running services
+nslookup  {target_IP or website}  - Converts domain to IP address
+dig {target_IP or website}        - Advanced DNS lookup
+nmap {target_IP or website}       - Scan a target
+nmap -sV {target_IP or website}   - Detect services + versions
+nmap -A {target_IP or website}    - Aggressive scan (OS + services)
+arp-scan --localnet               - Finds devices in your network (like WiFi users)
+tcpdump -i {net_con}              - Capture live network traffic
+curl {website}                    - Fetch web data (used in APIs & testing)
+wget {file_name}                  - Download log files
+nc {ip_address} {port}            - Connect to a port
+whois {ip_address}                - Get domain info (owner, registrar)
+shutdown                          - Shutdown xen0byt3@adoVM
+
+RaperRozel@adoVM-$: ip a
+Ethernet -> 10.0.0.1
+RaperRozel@adoVM-$: hostname -I
+RaperRozel 10.0.0.1
+RaperRozel@adoVM-$: ping
+Usage: ping <target>
+RaperRozel@adoVM-$: traceroute
+Usage: traceroute <target>
+RaperRozel@adoVM-$: nslookup
+Usage: nslookup <target>
+RaperRozel@adoVM-$: dig
+Usage: dig <target>
+RaperRozel@adoVM-$: nmap
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap
+Host seems down or not found.
+RaperRozel@adoVM-$: RaperRozel@adoVM-$: nmap
+Command not found
+RaperRozel@adoVM-$: Host seems down or not found.
+Command not found
+RaperRozel@adoVM-$: nmap 10.0.0.1
+Host seems down or not found.
+RaperRozel@adoVM-$: RaperRozel@adoVM-$: nmap 10.0.0.1
+Command not found
+RaperRozel@adoVM-$: Host seems down or not found.
+Command not found
+RaperRozel@adoVM-$: help
+
+adoVM Linux Commands:
+ip a                              - Shows your IP address, interfaces
+ip route                          - Shows your gateway
+hostname -I                       - Shows your IP address quickly
+ping {target_IP or website}       - Checks if a host is reachable
+traceroute {target_IP or website} - Shows the path packets take (routers/hops)
+netstat -tulnp                    - Shows open ports and running services
+nslookup  {target_IP or website}  - Converts domain to IP address
+dig {target_IP or website}        - Advanced DNS lookup
+nmap {target_IP or website}       - Scan a target
+nmap -sV {target_IP or website}   - Detect services + versions
+nmap -A {target_IP or website}    - Aggressive scan (OS + services)
+arp-scan --localnet               - Finds devices in your network (like WiFi users)
+tcpdump -i {net_con}              - Capture live network traffic
+curl {website}                    - Fetch web data (used in APIs & testing)
+wget {file_name}                  - Download log files
+nc {ip_address} {port}            - Connect to a port
+whois {ip_address}                - Get domain info (owner, registrar)
+shutdown                          - Shutdown xen0byt3@adoVM
+
+RaperRozel@adoVM-$: ip a
+Ethernet -> 10.0.0.1
+RaperRozel@adoVM-$: hostname -I
+RaperRozel 10.0.0.1
+RaperRozel@adoVM-$: 10.0.0.25
+Command not found
+RaperRozel@adoVM-$: 10.0.0.25
+Command not found
+RaperRozel@adoVM-$: nmap 10.0.0.25
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap -sV 10.0.0.25
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap -A 10.0.0.25
+Host seems down or not found.
+RaperRozel@adoVM-$: ip a
+Ethernet -> 10.0.0.1
+RaperRozel@adoVM-$: arp-scan --localnet
+You don't have admin privileges to invoke this command
+RaperRozel@adoVM-$: sudo arp-scan --localnet
+
+Scanning local network...
+
+192.168.1.244    4C:FA:70:05:18:C4  Epson-Printer (Smart Bulb)
+192.168.1.2      B1:FA:24:52:E8:82  Lenovo-ThinkPad (IoT Sensor)
+192.168.1.113    40:F1:5D:18:77:40  TPLink-Router (Windows Laptop)
+192.168.1.230    D5:5F:FB:A4:B3:F5  Galaxy-S21 (Printer)
+192.168.1.64     D5:87:9E:CD:A0:C8  Lenovo-ThinkPad (Desktop PC)
+192.168.1.107    2F:4B:C3:78:39:9E  iPad-Pro (Printer)
+192.168.1.251    CF:C9:12:16:D9:AA  SmartLight-01 (IoT Sensor)
+192.168.1.141    A4:7B:20:E1:52:B9  Galaxy-S21 (Android Phone)
+192.168.1.188    31:F6:F9:18:1C:D7  MacBook-Air (IP Camera)
+192.168.1.8      4C:9E:63:21:BE:1E  TempSensor-X (Tablet)
+RaperRozel@adoVM-$: nmap 192.168.1.244
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap 192.168.1.244
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap -A 192.168.1.244
+Host seems down or not found.
+RaperRozel@adoVM-$: nmap google.com
+Host seems down or not found.
+RaperRozel@adoVM-$: ping 192.168.1.244
+Reply from 192.168.1.244: bytes=32 time=41ms TTL=64
+Reply from 192.168.1.244: bytes=32 time=24ms TTL=64
+Reply from 192.168.1.244: bytes=32 time=92ms TTL=64
+Reply from 192.168.1.244: bytes=32 time=83ms TTL=64
+RaperRozel@adoVM-$: nmap 192.168.1.244
+Host seems down or not found.
+RaperRozel@adoVM-$: tcpdump -i Ethernet
+
+listening on Ethernet, link-type EN10MB (Ethernet), capture size 262144 bytes
+
+09:47:20 IP 192.168.1.88 > 192.168.1.246: ICMP echo request, id 1139, seq 1, length 64
+09:47:20 IP 192.168.1.86.22 > 192.168.1.238.22: UDP, length 34
+09:47:21 IP 192.168.1.25.445 > 192.168.1.58.445: UDP, length 66
+09:47:21 IP 192.168.1.57.445 > 192.168.1.117.445: UDP, length 67
+09:47:22 IP 192.168.1.123.443 > 192.168.1.115.443: Flags [S], seq 5974, win 64240, length 0
+09:47:22 IP 192.168.1.136.3389 > 192.168.1.241.3389: UDP, length 21
+09:47:23 IP 192.168.1.137.53 > 192.168.1.102.53: UDP, length 24
+09:47:23 IP 192.168.1.93 > 192.168.1.197: ICMP echo request, id 4424, seq 8, length 64
+RaperRozel@adoVM-$: ls
+
+File Listing:
+activity_log.txt
+activity_real.txt
+activity_10_log.txt
+
+RaperRozel@adoVM-$: cat activity_log.txt
+It's a prank!
+RaperRozel@adoVM-$: cat activity_real.txt
+Am I real?
+Do the words I speak before you make you feel
+That the love I lay for you will see no ending?
+Well, if you look into my eyes, then you should know
+RaperRozel@adoVM-$: cat activity_10_log.txt
+Logs:
+Hostname: RaperRozel
+IP: 10.0.0.1
+help
+ip a
+hostname -I
+ping
+traceroute
+nslookup
+dig
+nmap
+nmap
+RaperRozel@adoVM-$: nmap
+Host seems down or not found.
+nmap 10.0.0.1
+RaperRozel@adoVM-$: nmap 10.0.0.1
+Host seems down or not found.
+help
+ip a
+hostname -I
+10.0.0.25
+10.0.0.25
+nmap 10.0.0.25
+nmap -sV 10.0.0.25
+nmap -A 10.0.0.25
+ip a
+arp-scan --localnet
+sudo arp-scan --localnet
+nmap 192.168.1.244
+nmap 192.168.1.244
+nmap -A 192.168.1.244
+nmap google.com
+ping 192.168.1.244
+nmap 192.168.1.244
+tcpdump -i Ethernet
+ls
+cat activity_log.txt
+cat activity_real.txt
+cat activity_10_log.txt
+RaperRozel@adoVM-$: wget activity_log.txt
+activity_log.txt downloaded successfully.
+RaperRozel@adoVM-$:
